@@ -1,4 +1,16 @@
 /* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+/* Add bottom corners to expanded accordion header */
+.accordion-header.expanded {
+    border-bottom-left-radius: 0; /* Rounded corners on the top only when expanded */
+    border-bottom-right-radius: 0;
+}
+
+.accordion-content.active {
+    display: block; /* Show content only when it has the 'active' class */
+}
+
 .header-container {
     display: flex;
     flex-direction: row;
@@ -15,14 +27,15 @@
 
 .header-content {
     flex: 0 0 100%; /* Set the desired width for the header content */
-    font-family: 'Ultra', serif;
-    src: url(https://github.com/briancheagney/HPUGameDesign/tree/main/Fonts/Ultra.ttf) format("truetype");
+    font-family: 'Ultra', sans-serif;
+    font-size: 90px;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 0px;
 }
 
 header {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(15, 48, 59);
     color: rgb(255, 255, 255);
     padding: 0px;
@@ -30,8 +43,8 @@ header {
 }
 
 header h1 {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 40px;
+    font-weight: normal;
     margin-bottom: 10px;
     color: white;
 }
@@ -68,6 +81,7 @@ header h4 {
 }
 
 .accordion-header {
+    font-family: Arial, Helvetica, sans-serif;
     border-radius: 15px;
     padding: 20px;
     background-color: #534585;
@@ -89,11 +103,34 @@ header h4 {
     background-color: #c0e68e; /* Blue */
 }
 
+.color-4 {
+    background-color: #c0e68e; /* Blue */
+}
+
+.color-5 {
+    background-color: #c0e68e; /* Blue */
+}
+
+.color-6 {
+    background-color: #c0e68e; /* Blue */
+}
+
+.color-7 {
+    background-color: #c0e68e; /* Blue */
+}
+
+.color-8 {
+    background-color: #c0e68e; /* Blue */
+}
+
 /* Add more classes with different background colors as needed */
 
 
 .accordion-content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
     display: none;
     padding: 20px;
     color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }

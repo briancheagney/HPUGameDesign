@@ -1,15 +1,16 @@
-// script.js
 document.addEventListener("DOMContentLoaded", function() {
+    // Attach event listener to all accordion headers to toggle expansion
     const accordionHeaders = document.querySelectorAll(".accordion-header");
-
-    accordionHeaders.forEach(function(header) {
+    accordionHeaders.forEach(header => {
         header.addEventListener("click", function() {
-            // Toggle the visibility of the content
-            const content = this.nextElementSibling;
-            content.style.display = content.style.display === "none" ? "block" : "none";
+            // Toggle the 'expanded' class on the clicked accordion header
+            this.classList.toggle('expanded');
 
-            // Add a class to indicate whether the section is expanded or collapsed
-            this.classList.toggle("active");
+            // Get the sibling accordion content
+            const content = this.nextElementSibling;
+
+            // Toggle the 'active' class on the content container
+            content.classList.toggle('active');
         });
     });
 });
