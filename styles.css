@@ -70,7 +70,7 @@ header h4 {
 }
 
 .accordion-container {
-    max-width: 500px;
+    max-width: 700px;
     margin: 0 auto;
 }
 
@@ -86,7 +86,7 @@ header h4 {
     padding: 20px;
     background-color: #534585;
     cursor: pointer;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 24px;
 }
 
@@ -96,31 +96,31 @@ header h4 {
 }
 
 .color-2 {
-    background-color: #007bff; /* Blue */
+    background-color: #a5d1ff; /* Blue */
 }
 
 .color-3 {
-    background-color: #c0e68e; /* Blue */
+    background-color: #fcd557; /* Blue */
 }
 
 .color-4 {
-    background-color: #c0e68e; /* Blue */
+    background-color: #ff3a3a; /* Blue */
 }
 
 .color-5 {
-    background-color: #c0e68e; /* Blue */
+    background-color: #87ffc7; /* Blue */
 }
 
 .color-6 {
-    background-color: #c0e68e; /* Blue */
+    background-color: #ffd9a0; /* Blue */
 }
 
 .color-7 {
-    background-color: #c0e68e; /* Blue */
+    background-color: #7381ff; /* Blue */
 }
 
 .color-8 {
-    background-color: #c0e68e; /* Blue */
+    background-color: #ff466e; /* Blue */
 }
 
 /* Add more classes with different background colors as needed */
