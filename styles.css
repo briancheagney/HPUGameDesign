@@ -16,6 +16,7 @@
 .header-content {
     flex: 0 0 100%; /* Set the desired width for the header content */
     font-family: 'Ultra', serif;
+    src: url(https://github.com/briancheagney/HPUGameDesign/tree/main/Fonts/Ultra.ttf) format("truetype");
     text-align: center;
     color: white;
     padding: 0px;
