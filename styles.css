@@ -4,8 +4,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #330072; /* Background color for the header */
-    padding-bottom: 10px;
+    background-color: #654d83; /* Background color for the header */
+    margin-bottom: 20px;
 }
 
 .header-background {
@@ -14,16 +14,17 @@
 }
 
 .header-content {
-    flex: 0 0 80%; /* Set the desired width for the header content */
+    flex: 0 0 100%; /* Set the desired width for the header content */
+    font-family: 'Ultra', serif;
     text-align: center;
     color: white;
-    padding: 10px;
+    padding: 0px;
 }
 
 header {
     background-color: rgb(15, 48, 59);
     color: rgb(255, 255, 255);
-    /* padding: 20px; */
+    padding: 0px;
     text-align: center;
 }
 
@@ -55,27 +56,43 @@ header h4 {
 }
 
 .accordion-container {
-    max-width: 1000px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
 .accordion-item {
-    border: 0px solid #8a2121;
+    border: 0px solid #573fad;
     border-radius: 15px;
     margin-bottom: 10px;
 }
 
 .accordion-header {
     border-radius: 15px;
-    padding: 30px;
-    background-color: #662222;
+    padding: 20px;
+    background-color: #534585;
     cursor: pointer;
     color: white;
     font-size: 24px;
 }
 
+/* Define different background colors for each accordion header */
+.color-1 {
+    background-color: #8773c0; /* Gray */
+}
+
+.color-2 {
+    background-color: #007bff; /* Blue */
+}
+
+.color-3 {
+    background-color: #c0e68e; /* Blue */
+}
+
+/* Add more classes with different background colors as needed */
+
+
 .accordion-content {
     display: none;
-    padding: 10px;
+    padding: 20px;
     color: rgb(0, 0, 0);
 }
