@@ -134,3 +134,7 @@ header h4 {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
 }
+
+body {
+    background-color: #e3d1ff; /* Replace with your desired background color */
+}
