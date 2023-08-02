@@ -105,31 +105,39 @@ h5 {
 }
 
 .color-2 {
-    background-color: #a5d1ff; /* Blue */
+    background-color: #7eaada; /* Blue */
 }
 
 .color-3 {
-    background-color: #fcd557; /* Blue */
+    background-color: #cead43; /* Blue */
 }
 
 .color-4 {
-    background-color: #ff5a5a; /* Blue */
+    background-color: #c44848; /* Blue */
 }
 
 .color-5 {
-    background-color: #5aa878; /* Blue */
+    background-color: #71a183; /* Blue */
 }
 
 .color-6 {
-    background-color: #ffd9a0; /* Blue */
+    background-color: #c4a980; /* Blue */
 }
 
 .color-7 {
-    background-color: #7381ff; /* Blue */
+    background-color: #7e83ad; /* Blue */
 }
 
 .color-8 {
-    background-color: #ff466e; /* Blue */
+    background-color: #ad7480; /* Blue */
+}
+
+.color-9 {
+    background-color: #969696; /* Blue */
+}
+
+.color-10 {
+    background-color: #799c79; /* Blue */
 }
 
 /* Add more classes with different background colors as needed */
@@ -138,6 +146,8 @@ h5 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     display: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     padding: 20px;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
