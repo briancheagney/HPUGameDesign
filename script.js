@@ -13,4 +13,19 @@ document.addEventListener("DOMContentLoaded", function() {
             content.classList.toggle('active');
         });
     });
+
+    // Function to close all accordions
+    function closeAllAccordions() {
+        accordionHeaders.forEach(header => {
+            header.classList.remove('expanded');
+            const content = header.nextElementSibling;
+            content.classList.remove('active');
+        });
+    }
+
+    // Open the first accordion by default
+    const firstAccordionHeader = accordionHeaders[1];
+    if (firstAccordionHeader) {
+        firstAccordionHeader.click(); // Simulate a click event to open the first accordion
+    }
 });
